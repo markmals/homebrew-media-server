@@ -1,4 +1,4 @@
-class VimeoDL < Formula
+class VimeoDl < Formula
     desc "A tool to download private videos hosted on Vimeo."
     homepage "https://github.com/markmals/vimeo-dl"
     url "https://github.com/markmals/vimeo-dl/archive/v0.1.0.tar.gz"
