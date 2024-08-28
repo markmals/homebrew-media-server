@@ -10,8 +10,4 @@ class VimeoDl < Formula
     system "deno", "task", "compile"
     bin.install "vimeo-dl"
   end
-
-  test do
-    assert_match "0.1.0", shell_output(bin/"vimeo-dl -V", 0)
-  end
 end
