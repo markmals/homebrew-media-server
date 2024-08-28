@@ -12,6 +12,6 @@ class VimeoDl < Formula
   end
 
   test do
-    assert_match "0.1.0", shell_output(bin/"vimeo-dl -V", 255)
+    assert_match "0.1.0", shell_output(bin/"vimeo-dl -V", 0)
   end
 end
