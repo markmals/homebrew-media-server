@@ -7,7 +7,7 @@ class VimeoDl < Formula
     depends_on "deno" => :build
 
     def install
-        system "deno", "run", "compile"
+        system "deno", "task", "compile"
         bin.install "vimeo-dl"
     end
 end
