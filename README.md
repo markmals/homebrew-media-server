@@ -1,4 +1,4 @@
-# Markmals Media-server
+# Media Server Homebrew Formulae
 
 ## How do I install these formulae?
 
